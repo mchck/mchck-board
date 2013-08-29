@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:usb
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,7 +48,6 @@ LIBS:MK20LF
 LIBS:mounthole
 LIBS:vssa
 LIBS:vdda
-LIBS:mchck-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268

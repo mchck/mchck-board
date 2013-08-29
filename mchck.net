@@ -113,7 +113,7 @@
         (field (name Data+) D+)
         (field (name Data-) D-)
         (field (name Ground) GND))
-      (libsource (lib mchck-cache) (part USB_2))
+      (libsource (lib usb) (part USB))
       (sheetpath (names /USB/) (tstamps /504995A0/))
       (tstamp 4E3D8AFF))
     (comp (ref P6)
