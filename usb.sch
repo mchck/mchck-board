@@ -48,14 +48,15 @@ LIBS:MK20LF
 LIBS:mounthole
 LIBS:vssa
 LIBS:vdda
+LIBS:mchck-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "MC HCK microcontroller board"
-Date "13 Aug 2013"
-Rev "R5-rc2"
+Date "29 Aug 2013"
+Rev "R5-rc3"
 Comp "(c) 2011,2012,2013 Simon Schubert"
 Comment1 "CERN OHL v.1.1 or later"
 Comment2 ""
