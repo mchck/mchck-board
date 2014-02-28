@@ -55,7 +55,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "MC HCK microcontroller board"
-Date "27 feb 2014"
+Date "28 feb 2014"
 Rev "R5-rc3"
 Comp "(c) 2011,2012,2013 Simon Schubert"
 Comment1 "CERN OHL v.1.1 or later"
@@ -122,7 +122,7 @@ U 1 1 4F22E691
 P 1600 6400
 F 0 "P5" H 1680 6400 40  0000 L CNN
 F 1 "CHG" H 1600 6455 30  0000 C CNN
-F 2 "SparkFun-PAD.03X.03" H 1600 6555 30  0001 C CNN
+F 2 "solderpad" H 1600 6555 30  0001 C CNN
 F 3 "" H 1600 6400 60  0001 C CNN
 F 4 "never" H 1600 6400 60  0001 C CNN "populate"
 	1    1600 6400
@@ -602,7 +602,7 @@ U 1 1 530D1681
 P 4550 6200
 F 0 "P7" V 4500 6200 40  0000 C CNN
 F 1 "LIPO" V 4600 6200 40  0000 C CNN
-F 2 "JST1.5" H 4550 6200 60  0000 C CNN
+F 2 "SIL100-2" H 4550 6200 60  0001 C CNN
 F 3 "~" H 4550 6200 60  0000 C CNN
 	1    4550 6200
 	1    0    0    -1  

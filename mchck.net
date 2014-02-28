@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/corecode/devel/electronics/mchck/mchck-board/mchck.sch)
-    (date "Fri 28 Feb 2014 12:58:43 AM CET")
+    (date "Fri 28 Feb 2014 02:06:49 PM CET")
     (tool "eeschema (2013-may-18)-stable"))
   (components
     (comp (ref P2)
@@ -74,7 +74,7 @@
       (tstamp 4F22C560))
     (comp (ref P9)
       (value 5V)
-      (footprint SparkFun-PAD.03X.03)
+      (footprint solderpad)
       (fields
         (field (name populate) never))
       (libsource (lib conn) (part CONN_1))
@@ -82,7 +82,7 @@
       (tstamp 530E6520))
     (comp (ref P10)
       (value GND)
-      (footprint SparkFun-PAD.03X.03)
+      (footprint solderpad)
       (fields
         (field (name populate) never))
       (libsource (lib conn) (part CONN_1))
@@ -90,7 +90,7 @@
       (tstamp 530E6527))
     (comp (ref P11)
       (value D-)
-      (footprint SparkFun-PAD.03X.03)
+      (footprint solderpad)
       (fields
         (field (name populate) never))
       (libsource (lib conn) (part CONN_1))
@@ -98,7 +98,7 @@
       (tstamp 530E677F))
     (comp (ref P12)
       (value D+)
-      (footprint SparkFun-PAD.03X.03)
+      (footprint solderpad)
       (fields
         (field (name populate) never))
       (libsource (lib conn) (part CONN_1))
@@ -216,7 +216,7 @@
       (tstamp 4F22E7C7))
     (comp (ref P5)
       (value CHG)
-      (footprint SparkFun-PAD.03X.03)
+      (footprint solderpad)
       (fields
         (field (name populate) never))
       (libsource (lib conn) (part CONN_1))
@@ -302,7 +302,7 @@
       (tstamp 520A195F))
     (comp (ref P7)
       (value LIPO)
-      (footprint JST1.5)
+      (footprint SIL100-2)
       (libsource (lib conn) (part CONN_2))
       (sheetpath (names /power/) (tstamps /4F22DD51/))
       (tstamp 530D1681)))
