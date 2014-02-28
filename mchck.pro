@@ -1,6 +1,6 @@
-update=Thu 29 Aug 2013 02:51:47 PM CEST
+update=Thu 27 Feb 2014 06:30:23 PM CET
 version=1
-last_client=eeschema
+last_client=pcbnew
 [general]
 version=1
 [cvpcb]
@@ -8,28 +8,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=mchck.net
-UseCmpFile=0
-PadDrill=1.016
-PadDrillOvalY=1.016
-PadSizeH=1.8796
-PadSizeV=1.8796
-PcbTextSizeV=0.89916
-PcbTextSizeH=0.89916
-PcbTextThickness=0.14986
-ModuleTextSizeV=0.89916
-ModuleTextSizeH=0.89916
-ModuleTextSizeThickness=0.14986
-SolderMaskClearance=0.09999999999999999
-SolderMaskMinWidth=0.09999999999999999
-DrawSegmentWidth=0.14986
-BoardOutlineThickness=0.381
-ModuleOutlineThickness=0.14986
-[pcbnew/libraries]
-LibDir=
-LibName1=mchck
 [eeschema]
 version=1
 LibDir=.
@@ -88,3 +66,25 @@ LibName46=MK20LF
 LibName47=mounthole
 LibName48=vssa
 LibName49=vdda
+[pcbnew]
+version=1
+LastNetListRead=mchck.net
+UseCmpFile=0
+PadDrill="    0.750000"
+PadDrillOvalY="    0.750000"
+PadSizeH="    1.200000"
+PadSizeV="    1.500000"
+PcbTextSizeV="    0.899160"
+PcbTextSizeH="    0.899160"
+PcbTextThickness="    0.149860"
+ModuleTextSizeV="    0.899160"
+ModuleTextSizeH="    0.899160"
+ModuleTextSizeThickness="    0.149860"
+SolderMaskClearance="    0.100000"
+SolderMaskMinWidth="    0.100000"
+DrawSegmentWidth="    0.149860"
+BoardOutlineThickness="    0.381000"
+ModuleOutlineThickness="    0.050000"
+[pcbnew/libraries]
+LibDir=
+LibName1=mchck

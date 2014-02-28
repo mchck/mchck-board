@@ -49,13 +49,13 @@ LIBS:mounthole
 LIBS:vssa
 LIBS:vdda
 LIBS:mchck-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "MC HCK microcontroller board"
-Date "29 Aug 2013"
+Date "27 feb 2014"
 Rev "R5-rc3"
 Comp "(c) 2011,2012,2013 Simon Schubert"
 Comment1 "CERN OHL v.1.1 or later"
@@ -140,9 +140,8 @@ U 504995A0
 F0 "USB" 60
 F1 "usb.sch" 60
 F2 "VBUS" O R 7650 3100 60 
-F3 "VLIPO" B R 7650 3000 60 
-F4 "USB_DM" T L 6650 3100 60 
-F5 "USB_DP" T L 6650 3000 60 
+F3 "USB_DM" T L 6650 3100 60 
+F4 "USB_DP" T L 6650 3000 60 
 $EndSheet
 $Sheet
 S 4800 2800 1600 3100
@@ -278,12 +277,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 3100 7650 3100
 Wire Wire Line
-	7950 3650 7650 3650
-Wire Wire Line
-	7950 3000 7650 3000
-Wire Wire Line
-	7950 3000 7950 3650
-Wire Wire Line
 	9650 900  9650 1050
 $Sheet
 S 6650 3450 1000 600 
@@ -293,8 +286,7 @@ F1 "power.sch" 60
 F2 "VBUS" I R 7650 3550 60 
 F3 "+5V" O L 6650 3650 60 
 F4 "VRAW" I R 7650 3850 60 
-F5 "VLIPO" B R 7650 3650 60 
-F6 "VREGUSB" I L 6650 3800 60 
+F5 "VREGUSB" I L 6650 3800 60 
 $EndSheet
 Wire Wire Line
 	4200 5700 3800 5700
