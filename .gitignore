@@ -15,6 +15,7 @@ $savepcb.*
 *.lst
 *.bck
 *.g[tb][oslr]
+*.pho
 *.dcm
 *.gif
 *.wrl

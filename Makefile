@@ -6,7 +6,7 @@ PDFS=		${SOURCES:.ps=-crop.pdf}
 PNGS=		${COMPOSITE_PNGS} ${SOURCES:.ps=.png}
 PNG_PREVIEWS=	${PNGS:.png=-small.png}
 SCHEMATIC=	$(wildcard *.sch)
-BOARD=		$P.brd
+BOARD=		$P.kicad_pcb
 GERBERS=	$(wildcard $P-*.g[bt][lso] $P-*.gbr $P*.drl)
 ZIPNAME=	${P}-${REPOVER}.zip
 LICENSE_FILES=	LICENSE LICENSE.HOWTO README.md
