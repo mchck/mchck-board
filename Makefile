@@ -7,7 +7,7 @@ PNGS=		${COMPOSITE_PNGS} ${SOURCES:.ps=.png}
 PNG_PREVIEWS=	${PNGS:.png=-small.png}
 SCHEMATIC=	$(wildcard *.sch)
 BOARD=		$P.kicad_pcb
-GERBERS=	$(wildcard $P-*.g[bt][lso] $P-*.gbr $P*.drl)
+GERBERS=	$(wildcard $P-*.pho $P*.drl)
 ZIPNAME=	${P}-${REPOVER}.zip
 LICENSE_FILES=	LICENSE LICENSE.HOWTO README.md
 COMPOSITE_PNGS=	$P-F_Composite.png $P-B_Composite.png
